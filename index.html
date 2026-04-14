@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Lingo Institute – English And Communication Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- ════════════ TOP ANNOUNCEMENT BAR ════════════ -->
+  <div class="topbar" id="topbar">
+    <div class="container topbar-inner">
+      <span>🎓 English And Communication Skills</span>
+      <strong>BECOME A Communication Skills Expert — Training by World-Class Experts</strong>
+      <a href="tel:+919555678915" class="topbar-phone">📞 +91-9555678915</a>
+    </div>
+  </div>
+  <!-- ════════════ NAVBAR ════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+
+      <a href="#home" class="nav-logo">
+        <div class="logo-icon">TL</div>
+        <div class="logo-texts">
+          <span class="logo-name">The Lingo<em>INSTITUTE</em></span>
+          <span class="logo-caption">English And Communication Skills</span>
+        </div>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About Us</a></li>
+        <li><a href="#courses" class="nav-link">Courses</a></li>
+        <li class="has-drop">
+          <a href="#" class="nav-link">Free Content <span class="arr">▾</span></a>
+          <ul class="drop-menu">
+            <li><a href="#">YouTube Videos</a></li>
+            <li><a href="#">Free eBooks</a></li>
+            <li><a href="#">Webinars</a></li>
+          </ul>
+        </li>
+        <li class="has-drop">
+          <a href="#" class="nav-link">More <span class="arr">▾</span></a>
+          <ul class="drop-menu">
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="#contact" class="btn btn-login">Login</a>
+
+        <!-- ── DARK MODE TOGGLE ── -->
+        <div class="dm-toggle-wrap" title="Toggle dark mode">
+          <span class="dm-label">Dark</span>
+          <label class="dm-switch" aria-label="Toggle dark mode">
+            <input type="checkbox" id="dmToggle" />
+            <span class="dm-slider"></span>
+          </label>
+        </div>
+        <!-- ── END DARK MODE TOGGLE ── -->
+
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <!-- ════════════ HERO ════════════ -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <p class="hero-eyebrow fade-in" style="--i:0">BECOME A Communication Skills Expert</p>
+        <h1 class="hero-h1 fade-in" style="--i:1">
+          Training by <span class="hero-hl">World-Class</span>
+          <span class="hero-typed" id="heroTyped"><span class="cursor">|</span></span>
+        </h1>
+        <p class="hero-desc fade-in" style="--i:2">
+          Communication skills training for professionals and students.
+        </p>
+        <div class="hero-btns fade-in" style="--i:3">
+          <a href="#contact" class="btn btn-green btn-lg glow-pulse">BOOK DEMO CLASS</a>
+          <a href="#courses" class="btn btn-ghost btn-lg">Explore Courses →</a>
+        </div>
+        <div class="hero-stats fade-in" style="--i:4">
+          <div class="hstat"><span class="hstat-n" data-target="12000">0</span><small>+ Students Trained</small></div>
+          <div class="hstat-sep"></div>
+          <div class="hstat"><span class="hstat-n" data-target="99">0</span><small>% Confidence Improvement</small></div>
+          <div class="hstat-sep"></div>
+          <div class="hstat"><span class="hstat-n" data-target="50">0</span><small>+ English Courses</small></div>
+          <div class="hstat-sep"></div>
+          <div class="hstat"><span class="hstat-n" data-target="200">0</span><small>+ Success Stories</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-wave">
+      <svg viewBox="0 0 1440 70" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+        <path class="hero-wave-path" d="M0,35 C240,70 480,0 720,35 C960,70 1200,0 1440,35 L1440,70 L0,70 Z"
+          fill="#fff" />
+      </svg>
+    </div>
+  </section>
+
+  <!-- ════════════ WHY The Lingo Institute ════════════ -->
+  <section class="why-section" id="about">
+    <div class="container">
+      <p class="sec-label scroll-fade">QUALITY LEARNING EXPERIENCE</p>
+      <h2 class="sec-title scroll-fade">Why <span class="tg">The Lingo</span> Institute?</h2>
+
+      <div class="why-row why-l scroll-fade">
+        <div class="why-body">
+          <h3>Expert English Trainers</h3>
+          <p>Our trainers have 20+ years of experience in teaching spoken English, communication skills, and personality
+            development. They focus on practical learning, helping students speak confidently in real-life situations.
+          </p>
+          <ul class="chk-list">
+            <li>Experienced English Trainers</li>
+            <li>Daily Speaking Practice Sessions</li>
+            <li>1-on-1 Doubt Clearing & Guidance</li>
+          </ul>
+        </div>
+        <div class="why-num-badge">01</div>
+      </div>
+
+      <div class="why-row why-r scroll-fade">
+        <div class="why-num-badge">02</div>
+        <div class="why-body">
+          <h3>100% Practical English Training</h3>
+          <p>Our course is designed for real-life communication. Students learn by speaking daily and practicing in real
+            situations, helping them gain confidence quickly.</p>
+          <ul class="chk-list">
+            <li>Daily Speaking Practice Sessions</li>
+            <li>Real-life Conversation Exercises</li>
+            <li>Confidence Building Activities</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="why-row why-l scroll-fade">
+        <div class="why-body">
+          <h3>Career Support & Confidence Building</h3>
+          <p>We help you improve your English communication skills so you can perform confidently in interviews and
+            professional environments.</p>
+          <ul class="chk-list">
+            <li>Resume & Interview Preparation</li>
+            <li>Mock Interviews with Feedback</li>
+            <li>Confidence & Personality Development</li>
+          </ul>
+        </div>
+        <div class="why-num-badge">03</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ COURSES ════════════ -->
+  <section class="courses-sec" id="courses">
+    <div class="container">
+      <p class="sec-label scroll-fade">IN-DEMAND</p>
+      <h2 class="sec-title scroll-fade">Our <span class="tg">Courses</span></h2>
+      <p class="sec-sub scroll-fade">Practical training to improve your English speaking, confidence, and communication
+        skills.</p>
+
+      <div class="courses-slider scroll-fade">
+        <div class="courses-track" id="coursesTrack">
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-1">
+              <span class="cc-badge">ENGLISH COURSE</span>
+              <span class="cc-live">🔴 LIVE</span>
+            </div>
+            <div class="ccard-body">
+              <h4>Spoken English Course (Beginner to Advanced)</h4>
+              <div class="cc-meta">
+                <span>⏱ 3 Months</span>
+                <span>🎓 Beginner to Advanced</span>
+              </div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹4,500</span>
+                  <span class="pold">₹9,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Enroll Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-2">
+              <span class="cc-badge">FLUENT ENGLISH</span>
+              <span class="cc-live">🔴 LIVE</span>
+            </div>
+            <div class="ccard-body">
+              <h4>Fluent English Speaking Course</h4>
+              <div class="cc-meta"><span>⏱ 2 Months</span><span>🎓 All Levels</span></div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹5,500</span>
+                  <span class="pold">₹11,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-3">
+              <span class="cc-badge">ADVANCED</span>
+              <span class="cc-live">🔴 LIVE</span>
+            </div>
+            <div class="ccard-body">
+              <h4>Advanced English Communication Course – Live Batch – 1st April 2026</h4>
+              <div class="cc-meta"><span>⏱ 6 Months</span><span>🎓 Advanced</span></div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹15,500</span>
+                  <span class="pold">₹31,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-4">
+              <span class="cc-badge">COMMUNICATION PRO</span>
+              <span class="cc-live">🔴UPCOMING</span>
+            </div>
+            <div class="ccard-body">
+              <h4>Professional English Communication Course – Live Batch – 15th April 2026</h4>
+              <div class="cc-meta"><span>⏱ 5 Months</span><span>🎓 Intermediate</span></div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹12,500</span>
+                  <span class="pold">₹25,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-5">
+              <span class="cc-badge">COMPLETE COURSE</span>
+            </div>
+            <div class="ccard-body">
+              <h4>Complete Spoken English Course – Live Batch</h4>
+              <div class="cc-meta"><span>⏱ 6 Months</span><span>🎓Beginner to Advanced</span></div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹18,000</span>
+                  <span class="pold">₹36,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="ccard">
+            <div class="ccard-thumb cct-6">
+              <span class="cc-badge">FLUENCY BOOST</span>
+            </div>
+            <div class="ccard-body">
+              <h4>English Fluency & Conversation Course – Live Batch</h4>
+              <div class="cc-meta"><span>⏱ 5 Months</span><span>🎓 All Levels</span></div>
+              <div class="cc-foot">
+                <div class="cc-price">
+                  <span class="pnew">₹14,500</span>
+                  <span class="pold">₹29,000</span>
+                  <span class="poff">50% OFF</span>
+                </div>
+                <a href="#contact" class="btn btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /courses-track -->
+
+        <div class="cc-controls">
+          <button class="cc-btn" id="ccPrev">&#8592;</button>
+          <div class="cc-dots" id="ccDots"></div>
+          <button class="cc-btn" id="ccNext">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ CONTACT ════════════ -->
+  <section class="contact-sec" id="contact">
+    <div class="container contact-inner">
+
+      <div class="cont-left scroll-fade">
+        <h2>Get in <span class="tg">Touch</span></h2>
+        <p class="cont-sub">Help us with your details and we will get in touch with you</p>
+        <ul class="cont-info">
+          <li>
+            <span class="ci">📍</span>
+            <span>C-9, Block-C, Behind Bank of Baroda, Dilshad Colony, Dilshad Garden, Delhi – 110095</span>
+          </li>
+          <li>
+            <span class="ci">📞</span>
+            <a href="tel:+919555678915">+91 9555678915 / 9871876420</a>
+          </li>
+          <li>
+            <span class="ci">✉️</span>
+            <a href="mailto:info@thelingo.in">info@thelingo.in</a>
+          </li>
+        </ul>
+        <div class="cont-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.742!2d77.307!3d28.674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDQwJzI3LjIiTiA3N8KwMTgnMjUuMiJF!5e0!3m2!1sen!2sin!4v1617896400000!5m2!1sen!2sin"
+            width="100%" height="180" style="border:0;border-radius:10px;" allowfullscreen loading="lazy"
+            title="The Lingo Institute Location">
+          </iframe>
+        </div>
+      </div>
+
+      <div class="cont-right scroll-fade">
+        <form class="cont-form" id="contForm" novalidate>
+          <div class="fg">
+            <input type="text" id="fn" placeholder="Name *" required />
+            <span class="ferr" id="fnErr"></span>
+          </div>
+          <div class="fg">
+            <input type="tel" id="fp" placeholder="Phone Number *" required />
+            <span class="ferr" id="fpErr"></span>
+          </div>
+          <div class="fg">
+            <input type="email" id="fe" placeholder="Email ID *" required />
+            <span class="ferr" id="feErr"></span>
+          </div>
+          <div class="fg">
+            <select id="fc">
+              <option value="">Select Course (Optional)</option>
+              <option>Spoken English (Beginner)</option>
+              <option>Spoken English (Intermediate)</option>
+              <option>Spoken English (Advanced)</option>
+              <option>English Grammar Course</option>
+              <option>Communication Skills</option>
+              <option>Interview Preparation</option>
+            </select>
+          </div>
+          <div class="fg">
+            <textarea id="fm" placeholder="Your Message" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-green btn-full">SUBMIT →</button>
+          <div class="fsuccess" id="fSuccess">
+            ✅ Thank you! We'll contact you within 24 hours.
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ════════════ CATEGORIES ════════════ -->
+  <section class="cats-sec">
+    <div class="container">
+      <p class="sec-label scroll-fade">EXPLORE</p>
+      <h2 class="sec-title scroll-fade">Explore our <span class="tg">Popular</span><br />English Courses</h2>
+      <p class="sec-sub scroll-fade">Improve your speaking, confidence, and communication skills.</p>
+
+      <div class="cats-grid">
+        <div class="cat-card scroll-fade">
+          <div class="cat-ico">🗣️</div>
+          <h4>Spoken English</h4>
+          <p>Daily Conversations, Fluency</p>
+          <span class="cat-cnt">12 Courses</span>
+        </div>
+
+        <div class="cat-card scroll-fade" style="--delay:.1s">
+          <div class="cat-ico">📘</div>
+          <h4>English Grammar</h4>
+          <p>Basics to Advanced Grammar</p>
+          <span class="cat-cnt">8 Courses</span>
+        </div>
+
+        <div class="cat-card scroll-fade" style="--delay:.15s">
+          <div class="cat-ico">💬</div>
+          <h4>Communication Skills</h4>
+          <p>Professional & Daily Use</p>
+          <span class="cat-cnt">10 Courses</span>
+        </div>
+
+        <div class="cat-card scroll-fade" style="--delay:.2s">
+          <div class="cat-ico">🎤</div>
+          <h4>Public Speaking</h4>
+          <p>Confidence & Stage Speaking</p>
+          <span class="cat-cnt">7 Courses</span>
+        </div>
+
+        <div class="cat-card scroll-fade" style="--delay:.25s">
+          <div class="cat-ico">🧠</div>
+          <h4>Personality Development</h4>
+          <p>Confidence, Body Language</p>
+          <span class="cat-cnt">6 Courses</span>
+        </div>
+
+        <div class="cat-card scroll-fade" style="--delay:.3s">
+          <div class="cat-ico">💼</div>
+          <h4>Interview Preparation</h4>
+          <p>HR Questions, Job Readiness</p>
+          <span class="cat-cnt">5 Courses</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ TEAM ════════════ -->
+  <section class="team-sec" id="team">
+    <div class="container">
+      <p class="sec-label scroll-fade">OUR TEAM</p>
+      <h2 class="sec-title scroll-fade">A team of highly qualified<br /><strong>professionals</strong></h2>
+
+      <div class="team-grid">
+
+        <div class="team-card scroll-fade">
+          <div class="team-av tav-1"><span>SG</span></div>
+          <h4>Surendra Gusain</h4>
+          <ul class="tmeta">
+            <li>Founder & Head English Trainer</li>
+            <li>25+ Years Teaching Experience</li>
+            <li>Expert in Spoken English & Personality Development</li>
+          </ul>
+        </div>
+
+        <div class="team-card scroll-fade" style="--delay:.1s">
+          <div class="team-av tav-2"><span>KG</span></div>
+          <h4>Komal Gusain</h4>
+          <ul class="tmeta">
+            <li>Senior Spoken English Trainer</li>
+            <li>15+ Years Teaching Experience</li>
+            <li>Expert in Fluency & Personality Development</li>
+          </ul>
+        </div>
+        <div class="team-card scroll-fade" style="--delay:.2s">
+          <div class="team-av tav-3"><span>AK</span></div>
+          <h4>Atul Kumar</h4>
+          <ul class="tmeta">
+            <li>Spoken English Trainer</li>
+            <li>2+ Years Teaching Experience</li>
+            <li>Expert in Grammar & Communication</li>
+          </ul>
+        </div>
+
+        <div class="team-card scroll-fade" style="--delay:.3s">
+          <div class="team-av tav-4"><span>SK</span></div>
+          <h4>Sachin Kumar</h4>
+          <ul class="tmeta">
+            <li> 3+ yrs experience</li>
+            <li>Spoken English Trainer</li>
+            <li>Expert in Communication Skills</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ TESTIMONIALS ════════════ -->
+  <section class="testi-sec">
+    <div class="container">
+      <p class="sec-label scroll-fade">STUDENT REVIEWS</p>
+      <h2 class="sec-title scroll-fade">What Our <span class="tg">Students</span> Say</h2>
+
+      <div class="testi-slider scroll-fade">
+        <div class="testi-track" id="testiTrack">
+
+          <div class="testi-slide">
+            <div class="tstar">★★★★★</div>
+            <p>"This English course completely transformed my confidence. Within 3 months, I started speaking fluently
+              and performing better in interviews."</p>
+            <div class="tauthor">
+              <div class="tav">RS</div>
+              <div>
+                <strong>Rahul Sharma</strong>
+                <span>Working Professional, Pune</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="tstar">★★★★★</div>
+            <p>"I was struggling to speak English, but this course completely changed my confidence. Now I communicate
+              clearly in my job and daily life."</p>
+            <div class="tauthor">
+              <div class="tav">PK</div>
+              <div>
+                <strong>Priya Kulkarni</strong>
+                <span>Working Professional, Bangalore</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testi-slide">
+            <div class="tstar">★★★★★</div>
+            <p>"The English classes were practical and easy to follow. Within a few weeks, I started speaking
+              confidently in meetings and daily conversations."</p>
+            <div class="tauthor">
+              <div class="tav">AM</div>
+              <div>
+                <strong>Aarav Mehta</strong>
+                <span>Working Professional, Hyderabad</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-slide">
+            <div class="tstar">★★★★★</div>
+            <p>"As a working professional, the weekend English classes were perfect. Now I confidently speak English in
+              meetings and daily conversations."</p>
+            <div class="tauthor">
+              <div class="tav">SD</div>
+              <div><strong>Sneha Desai</strong><span>Job Seeker, Mumbai</span></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="testi-ctrl">
+          <button class="cc-btn" id="tPrev">&#8592;</button>
+          <div class="cc-dots" id="tDots"></div>
+          <button class="cc-btn" id="tNext">&#8594;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ CTA STRIP ════════════ -->
+  <section class="cta-strip scroll-fade">
+    <div class="container cta-inner">
+      <div class="cta-text">
+        <h2>Ready to transform your career?</h2>
+        <p>Join 12,000+ students mastering English communication for real-life success.</p>
+      </div>
+      <div class="cta-btns">
+        <a href="#contact" class="btn btn-green btn-lg">Book Free Demo</a>
+        <a href="tel:+919555678915" class="btn btn-outline-g btn-lg">📞 Call Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════ FOOTER ════════════ -->
+  <footer class="footer" id="footer">
+    <div class="container footer-inner">
+
+      <div class="fc-brand">
+        <a href="#home" class="nav-logo">
+          <div class="logo-icon logo-sm">TL</div>
+          <div class="logo-texts">
+            <span class="logo-name">The Lingo </span>
+            <span class="logo-caption">AI &amp; Future Skills → English Speaking Skills</span>
+          </div>
+        </a>
+        <p>📍 C-9, Block-C, Dilshad Colony, Delhi – 110095</p>
+        <p>📞 <a href="tel:+919555678915">9555678915 / 9871876420</a></p>
+        <p>✉️ <a href="mailto:info@thelingo.in">info@thelingo.in</a></p>
+      </div>
+
+      <div class="fc-links">
+        <h5>Quick Links</h5>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+
+      <div class="fc-links">
+        <h5>Courses</h5>
+        <ul>
+          <li><a href="#">Spoken English</a></li>
+          <li><a href="#">Basic English Grammar</a></li>
+          <li><a href="#">Advanced English Communication</a></li>
+          <li><a href="#">Vocabulary Building</a></li>
+          <li><a href="#">Personality Development</a></li>
+        </ul>
+      </div>
+
+      <div class="fc-social">
+        <h5>Follow Us</h5>
+        <div class="fsoc-row">
+          <a href="#" class="fsoc fb" title="Facebook">f</a>
+          <a href="#" class="fsoc yt" title="YouTube">▶</a>
+          <a href="#" class="fsoc ig" title="Instagram">◉</a>
+          <a href="#" class="fsoc tw" title="Twitter">𝕏</a>
+          <a href="https://wa.me/919555678915" class="fsoc wa" title="WhatsApp">💬</a>
+        </div>
+        <a href="#contact" class="btn btn-green" style="margin-top:18px;font-size:.85rem">💬 WhatsApp Us</a>
+      </div>
+
+    </div>
+    <div class="footer-bar">
+      <div class="container fbar-inner">
+        <span>© 2026 The Lingo Institute. All Rights Reserved.</span>
+        <div><a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back-to-top -->
+  <button class="btt" id="btt" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
